@@ -29,6 +29,6 @@ describe('App component tests', () => {
     fireEvent.click(buttonDecrement)
     expect(title).toHaveTextContent('count is: -1')
     fireEvent.click(buttonDecrement)
-    expect(title).toHaveTextContent('count is: -2')
+    expect(title).not.toHaveTextContent('count is: -2')
   })
 })
