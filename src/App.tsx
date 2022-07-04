@@ -7,7 +7,7 @@ export default () => {
     <div className="App">
       <h1>count is: {count}</h1>
       <button
-        data-testId="increment-button"
+        data-testid="increment-button"
         type="button"
         onClick={() => setCount(count => count + 1)}
       >
